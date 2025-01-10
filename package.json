@@ -1,0 +1,20 @@
+{
+  "license": "ISC",
+  "name": "ws-to-http-proxy",
+  "version": "1.0.0",
+  "description": "WebSocket to HTTP proxy",
+  "bin": {
+    "local-proxy": "./src/main.js"
+  },
+  "scripts": {
+    "start": "node ./src/main.js",
+    "build": "pkg . --targets node14-win-x64 --output ws-to-http-proxy"
+  },
+  "dependencies": {
+    "express": "5.0.1",
+    "http-proxy-middleware": "3.0.3",
+    "node-fetch": "^3.3.2",
+    "uuid": "^11.0.5",
+    "ws": "8.18.0"
+  }
+}
