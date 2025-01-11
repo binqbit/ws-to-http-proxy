@@ -5,9 +5,20 @@ This is a simple tool to implement proxy WebSocket via HTTP protocol.
 
 ## Installation
 - Build from source
-```bash
-yarn build
-```
+    - Windows
+        ```bash
+        yarn build:win
+        ```
+
+    - Linux
+        ```bash
+        yarn build:linux
+        ```
+
+    - MacOS
+        ```bash
+        yarn build:mac
+        ```
 
 - Run command
 ```bash

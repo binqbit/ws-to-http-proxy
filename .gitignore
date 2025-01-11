@@ -2,5 +2,4 @@
 package-lock.json
 yarn.lock
 ws-to-http-proxy
-ws-to-http-proxy.exe
-
+ws-to-http-proxy.*
